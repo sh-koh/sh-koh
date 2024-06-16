@@ -1,16 +1,52 @@
-### Hi there 👋
+# 🙋 About me
+```nix
+let
+  lib = import <nixpkgs/lib>;
+  me = {
+    name = "Abdel B.";
+    job = "student";
+    hobbies = [
+      "networks"
+      "systems"
+      "devops"
+      "programming"
+      "gaming"
+    ];
+  };
+in
+  with lib;
+  ''
+    Hi ! ${me.name}, I love ${strings.concatStringsSep "," me.hobbies} !
+    I'm a ${me.job} at ENI to become a "DevSecOps" engineer.
+  ''
+```
 
-<!--
-**sh-koh/sh-koh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🔁 My Skills 
 
-Here are some ideas to get you started:
+<details open>
+  <summary><b>📦 DevOps</b></summary>
+  <br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![DevOps Tools](https://skillicons.dev/icons?i=bash,powershell,docker,nix,githubactions)](https://skillicons.dev)
+</details>
+
+<details open>
+  <summary><b>🔧 Tools</b></summary>
+  <br>
+
+[![Software and Tools](https://skillicons.dev/icons?i=linux,neovim,git,github,gitlab)](https://skillicons.dev)
+</details>
+
+<details open>
+  <summary><b>🧠 Programming</b></summary>
+  <br>
+
+[![Programming languages](https://skillicons.dev/icons?i=python,go,js,haskell,zig)](https://skillicons.dev)
+</details>
+
+<details open>
+  <summary><b>🎨 Markup and style</b></summary>
+  <br>
+
+[![Markup and style languages](https://skillicons.dev/icons?i=html,css,sass,markdown,regex)](https://skillicons.dev)
+</details>
