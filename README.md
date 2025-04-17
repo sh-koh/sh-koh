@@ -25,7 +25,7 @@ in
   <summary><b>📦 DevOps</b></summary>
   <br>
 
-[![DevOps](https://go-skill-icons.vercel.app/api/icons?i=bash,powershell,docker,nix,githubactions,vagrant)](https://skillicons.dev)
+[![DevOps](https://go-skill-icons.vercel.app/api/icons?i=bash,powershell,docker,nix,githubactions,vagrant,terraform)](https://skillicons.dev)
 </details>
 
 <details open>
@@ -39,7 +39,7 @@ in
   <summary><b>🧠 Programming</b></summary>
   <br>
 
-[![Programming languages](https://go-skill-icons.vercel.app/api/icons?i=haskell,golang,python,c)](https://skillicons.dev)
+[![Programming languages](https://go-skill-icons.vercel.app/api/icons?i=rust,haskell,python,c)](https://skillicons.dev)
 </details>
 
 <details open>
