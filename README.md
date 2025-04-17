@@ -25,7 +25,7 @@ in
   <summary><b>📦 DevOps</b></summary>
   <br>
 
-[![DevOps](https://go-skill-icons.vercel.app/api/icons?i=bash,powershell,docker,nix,githubactions,vagrant)](https://skillicons.dev)
+[![DevOps](https://go-skill-icons.vercel.app/api/icons?i=bash,powershell,docker,nix,githubactions,vagrant,terraform)](https://skillicons.dev)
 </details>
 
 <details open>
